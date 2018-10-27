@@ -13,6 +13,9 @@ spring:
 #    password: Drb.199519.cq
 #    driver-class-name: com.mysql.jdbc.Driver
 #    url: jdbc:mysql://123.206.62.172:3300/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: 123.206.62.172
+    port: 5672
   jpa:
     show-sql: true
 eureka:

@@ -7,8 +7,9 @@ spring:
         git:
           uri: https://github.com/dengrenbocq/spring-cloud-config-repo.git
           username: dengrenbo@outlook.com
-          password: git密码
-          basedir: /Users/admin/code/myProjects/java/imooc/SpringCloud_Sell/config/basedir
+          password:
+#          设置本地仓库地址
+#          basedir: /Users/admin/code/myProjects/java/imooc/SpringCloud_Sell/config/basedir
 eureka:
   client:
     service-url:

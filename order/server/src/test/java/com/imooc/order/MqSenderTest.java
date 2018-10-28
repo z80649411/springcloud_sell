@@ -22,4 +22,8 @@ public class MqSenderTest extends OrderApplicationTests {
 //        发送消息第一个参数为队列名称 第二个参数为内容
         amqpTemplate.convertAndSend("myQueue", "now: " + new Date());
     }
+    @Test
+    public void computerSend() {
+        amqpTemplate.convertAndSend("myOrder","computer", "now: " + new Date());
+    }
 }

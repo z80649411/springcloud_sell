@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/dengrenbocq/spring-cloud-config-repo.git
+          uri: https://github.com/dengrenbocq/spring-cloud-sell-config-repo.git
           username: dengrenbo@outlook.com
           password: 
 #          设置本地仓库地址

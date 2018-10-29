@@ -1,3 +1,7 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 spring:
   application:
     name: order
@@ -8,17 +12,10 @@ spring:
 #        配置微服务配置中心名字
         service-id: CONFIG
       profile: dev
-#  datasource:
-#    username: root
-#    password: Drb.199519.cq
-#    driver-class-name: com.mysql.jdbc.Driver
-#    url: jdbc:mysql://123.206.62.172:3300/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+
 
   jpa:
     show-sql: true
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+
 server:
   port: 9080

@@ -5,15 +5,11 @@ spring:
     config:
       discovery:
         enabled: true
-        #        配置微服务配置中心名字
+        #        配置微服务配置中心名字 自动查找product-dev.yml 配置
         service-id: CONFIG
       profile: dev
 
-#  datasource:
-##    username: root
-##    password: Drb.199519.cq
-#    driver-class-name: com.mysql.jdbc.Driver
-#    url: jdbc:mysql://123.206.62.172:3300/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+
   jpa:
     show-sql: true
 eureka:

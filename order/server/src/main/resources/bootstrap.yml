@@ -12,7 +12,13 @@ spring:
 #        配置微服务配置中心名字
         service-id: CONFIG
       profile: dev
-
+    stream:
+      #      spring cloud stream消息接受 分组
+      bindings:
+        inputMes:
+          group: order
+          #          保存对象一json形式保存
+          content-type: application/json
 
   jpa:
     show-sql: true
